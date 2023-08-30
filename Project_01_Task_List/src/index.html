@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link rel="icon" type="image" href="../images/task.png" />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <div id="main_div" class="">
+      <div
+        class="flex items-center justify-center mt-10 font-semibold text-[45px] mb-5"
+      >
+        Add Your Task
+      </div>
+      <div class="flex flex-row items-center justify-center">
+        <input
+          id="taskInput"
+          class="border-2 rounded-md p-1"
+          type="text"
+          placeholder="Your Task"
+        />
+        <button id="add" class="border-2 rounded-md p-1 ml-3 bg-[#0bb8a6]">Add</button>
+      </div>
+
+      <p class="flex items-center justify-center text-[30px] mt-5 underline">Task List</p>
+      <div class="flex flex-col items-center justify-center">
+        <input
+          id="filter"
+          class="border-2 rounded-md p-1 mt-2"
+          type="text"
+          placeholder="Filter Task"
+        />
+        <ul id="ul" class="mt-2">
+
+        </ul>
+        <button id="clear" class="border-2 rounded-md p-1 ml-3 bg-[#0bb8a6] mt-3">Clear Task</button>
+      </div>
+    </div>
+
+    <!-- java script files -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
